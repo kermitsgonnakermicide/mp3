@@ -73,9 +73,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "E:/PYPROJ/odo/mp3/PCB/Production")
 		)
 	)
 	(net 0 "")
@@ -110,6 +110,208 @@
 	(net 29 "Net-(J1-GPIO12{slash}PWM0)")
 	(net 30 "unconnected-(J1-ID_SD_I2C0{slash}GPIO00-Pad27)")
 	(net 31 "unconnected-(J1-GPIO20{slash}SPI1_MOSI{slash}PCM_DIN{slash}PWM1-Pad38)")
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "01776192-cc6a-481f-8a57-62cc8cb6468a")
+		(at 156 105)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "H2"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(uuid "0557a006-5707-4d49-9b34-883c4e28f5ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "e1cdea70-24f7-4a31-b74a-5c76be533f78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef384f46-afd2-4167-a12d-921f6f05e10d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1a57c1c-3a50-4388-a403-863e4b5b7bfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/8adc8b6b-aa7a-49f9-af80-9801c7f3b70b")
+		(sheetname "/")
+		(sheetfile "MP3Player.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "69fd6865-3a94-4931-b9d0-16107028955c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "05cff5dd-4319-47fd-a96b-902fd3495000")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e293704e-5cec-49f8-9308-ac058802c399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7b53b605-1e91-4224-99c2-fd38f15753cd")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "201bbeef-944c-4e4f-b837-2aa4aaf9d524")
+		(at 156 51)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "H1"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(uuid "0cf7b4f8-f566-4c7a-9d73-21ed4275620c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "b57b8588-c039-461e-8f6b-4921cd7bfab2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c19b7354-0efd-4159-8952-affdd7eb45fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "404c9291-8d7d-4967-8cbd-894545e1c404")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/4d86e57f-eb6a-4c6c-be19-27e332a44ad9")
+		(sheetname "/")
+		(sheetfile "MP3Player.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "e6f8cc75-0174-4b06-b0ef-a450073202dc")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b3d5f1a7-67d9-4802-8424-a154aea14516")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2cb20847-8002-4ff0-871f-d34d9475611b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "438ec2ab-ff38-49c6-8349-1f73563d12d5")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "40146fb9-7f7b-41f9-bedb-e7c1f042a133")
@@ -806,7 +1008,7 @@
 	(footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
 		(layer "F.Cu")
 		(uuid "a08b52e1-f848-4c28-983d-7a17c352ab46")
-		(at 140.5 96)
+		(at 140.5 94)
 		(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, https://www.lcsc.com/datasheet/lcsc_datasheet_2410010003_ALPSALPINE-EC11E09444A8_C1322538.pdf")
 		(tags "rotary encoder")
 		(property "Reference" "SW1"
@@ -1804,14 +2006,34 @@
 		(uuid "121eae4d-e4dc-4572-a041-a47f771a4304")
 	)
 	(gr_line
-		(start 158.5 108.5)
+		(start 136.5 104.5)
+		(end 136.5 107.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1a3c54b5-9543-45e6-a5d7-6711413dff93")
+	)
+	(gr_line
+		(start 158.5 107.5)
 		(end 158.5 48.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "195754e0-43be-4b79-8020-41f9d931a657")
+		(uuid "266b8e15-a120-4fb4-be51-1cbd2b69a703")
+	)
+	(gr_line
+		(start 158.5 107.5)
+		(end 136.5 107.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "50140ff4-4ad2-4c98-a794-82ac13043bb3")
 	)
 	(gr_line
 		(start 128 51.5)
@@ -1822,16 +2044,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "62570b85-4dcc-4455-8dca-9841b15fd35a")
-	)
-	(gr_line
-		(start 136.5 108.5)
-		(end 158.5 108.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "627de922-2d44-414d-bb0a-22f6914f53b9")
 	)
 	(gr_line
 		(start 138 48.5)
@@ -1854,6 +2066,16 @@
 		(uuid "84da1a26-38ad-409f-8ad6-2613c8a0070f")
 	)
 	(gr_line
+		(start 154 103.5)
+		(end 158.5 107.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d6fdf6c3-7e66-4621-ba2f-4fbc1c45e6b5")
+	)
+	(gr_line
 		(start 158.5 48.5)
 		(end 138 48.5)
 		(stroke
@@ -1862,16 +2084,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "d7c2f549-ee39-4fe9-a4c3-b5387e6a1fd1")
-	)
-	(gr_line
-		(start 136.5 104.5)
-		(end 136.5 108.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "d82c2677-4329-4658-9cd2-0469fc6a1dc7")
 	)
 	(segment
 		(start 134.151 96.490892)
