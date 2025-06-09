@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 import eyed3
 from mutagen.id3 import ID3
 import os
-
+from music_display import *
 from LCD_2inch4 import LCD_2inch4
 
 #this is very stupid
@@ -35,12 +35,16 @@ def extract_album_art_pil(mp3_file):
 test_songs = []
 
 class song:
+    path = None
+
     def __init__(self, path):
         self.title = None
         self.artist = None
         self.album = None
         self.image = None
+        self.path = None
         data = eyed3.load(path=path)
+        self.path = path
         if data is None or data.tag is None:
             self.artist = "No Metadata"
             self.title = "No Metadata"
@@ -186,6 +190,9 @@ def test_display_console():
         print(f"  Text: '{song_text}'")
         print()
 
+def select_button():
+    global current_sel
+    test = test_songs[current_sel]
 
 if __name__ == "__main__":
     display_init()

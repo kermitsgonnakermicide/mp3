@@ -15,7 +15,6 @@ from LCD_2inch4 import LCD_2inch4
 current_sel = 0
 
 class Music_Display:
-
     def __init__(self,song: song):
         self.lcd = LCD_2inch4()
         #stupid? yes. No pointers? indeed
@@ -29,7 +28,8 @@ class Music_Display:
         canvas.bitmap(self.song.image)
         canvas.line([(0,30),(30,0)],"WHITE",5)
         canvas.line([(1, 30), (30, 0)], "RED", 5)
-        media = vlc.MediaPlayer(song)
+    async def play_music(self):
+        media = vlc.MediaPlayer(song.path)
         media.play()
 if __name__ == "__main__":
 
