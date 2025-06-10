@@ -17,6 +17,7 @@ current_sel = 0
 class Music_Display:
     def __init__(self,song: song):
         self.lcd = LCD_2inch4()
+        self.media=None
         #stupid? yes. No pointers? indeed
         self.lcd.Init()
         self.lcd.clear()
@@ -29,7 +30,11 @@ class Music_Display:
         canvas.line([(0,30),(30,0)],"WHITE",5)
         canvas.line([(1, 30), (30, 0)], "RED", 5)
     async def play_music(self):
-        media = vlc.MediaPlayer(song.path)
-        media.play()
+        self.media = vlc.MediaPlayer(song.path)
+        self.media.play()
+    def pause_music(self):
+        self.media.pause()
+    async def set_volume(self,volume: int):
+        self.media.audio_set_volume(i_volume=volume)
 if __name__ == "__main__":
 
