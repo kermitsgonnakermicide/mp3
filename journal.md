@@ -37,3 +37,7 @@ Also made the case for the mp3player<br>
 
 Slightly redesigned the PCB, as earlier it was more of a 'reverse-hat' wherein I had a 40 pin header directly going onto the pi's pins but thats kinda problematic with mounting<br>
 What i've done now is just put a simple 6 pin female header to just connect with wires to the GPIO. I'm currently redesigning the case right now to accomodate this so will update soon<br>
+
+# Day 7 (June 14th)
+
+Made a case for it today, fully covering the pi end to end.<br>
