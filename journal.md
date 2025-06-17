@@ -14,7 +14,7 @@ i will also bundle it with nvlc or musikcube or ncmpcpp (pls dont hurt me)<br>
 
 Mostly just code refactors, segmenting things into functions. I setup Image drawing for album art aswell as the down button (crazy).
 The media screen template was created - im using vlc python bindings to play the media properly. The song class has to be expanded to contain more information <br>
-![alt text](img1.png)
+![alt text](img1.png)<br>
 i may just have to make the media async to ensure that i can update the Media GUI parallely
 <br>
 **1.5 hour spent**
@@ -28,7 +28,7 @@ more work on the music player to handle buttons<br>
 
 Updated time readings according to WakaTime. Buttons were updated to get rid of that awful version i had before and actually <br>
 register them on startup. More utility functions were added for changing the status of the media as well as volume. I finally got the PCB pinout, so i was able to setup all the functions. IMO refining is all that's left <br>
-![alt text](IMG2.png)
+![alt text](IMG2.png)<br>
 **1.2 hours spent**
 
 # Day 5(June 12)
@@ -40,7 +40,7 @@ Also made the case for the mp3player<br>
 # Day 6 (June 13th)
 
 Slightly redesigned the PCB, as earlier it was more of a 'reverse-hat' wherein I had a 40 pin header directly going onto the pi's pins but thats kinda problematic with mounting<br>
-![iMG](Assets/PCB.png)
+![iMG](Assets/PCB.png)<br>
 What i've done now is just put a simple 6 pin female header to just connect with wires to the GPIO. I'm currently redesigning the case right now to accomodate this so will update soon<br>
 
 **4 hours spent**
