@@ -14,7 +14,7 @@ i will also bundle it with nvlc or musikcube or ncmpcpp (pls dont hurt me)<br>
 
 Mostly just code refactors, segmenting things into functions. I setup Image drawing for album art aswell as the down button (crazy).
 The media screen template was created - im using vlc python bindings to play the media properly. The song class has to be expanded to contain more information <br>
-![alt text](img1.png)<br>
+![alt text](IMG1.png)<br>
 i may just have to make the media async to ensure that i can update the Media GUI parallely
 <br>
 **1.5 hour spent**
