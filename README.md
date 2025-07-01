@@ -9,7 +9,8 @@ I wanted to use a Pi Zero 2 W because I saw [this](https://www.waveshare.com/3.5
 I made a wee little PCB for mounting my mechanical keys and encoder<br>
 ![img](Assets/PCB.png)<br>
 And for attaching both of these, I made a case<br>
-![alt text](image.png)
+![img](mp3.png)
+![img](aaaaa.png)
 **Software**
 The python script(s) loads MP3 files, extracts their metadata and album art, and displays them on a 3.5" LCD. Our mechanical keys let you scroll and select songs, while a rotary encoder adjusts the volume. On selection, the music_display module handles playback using the chosen song.
 
