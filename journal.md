@@ -33,8 +33,11 @@ register them on startup. More utility functions were added for changing the sta
 
 # Day 5(June 12)
 
-Finally worked on/finished the PCB for this, which has two mechanical keys and encoder<br>
-Also made the case for the mp3player<br>
+Finally worked on/finished the PCB for this, which has two mechanical keys(will be using HMX macchiatos, as they seem like the best sounding switches within my price point)<br>
+There will also be an encoder for this, the same kind(ec11) as I will(hopefully) get for my hackpad<br>
+A cool feature of this encoder is that it has a *button*, which i will use for pause and play(other two are for forward/backward)<br>
+The design of this PCB is a bit wacky, as I still want to use my screen(which is a hat but on the bottom side of the pi) AND have access to some GPIOs if I want to add fun stuff to this in the future<br>
+Also made the case for the mp3player, pretty simple and basic<br>
 **7(yikes) hours spent**
 
 # Day 6 (June 13th)
